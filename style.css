@@ -1,0 +1,103 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: linear-gradient(88.87deg, #82d2ff -17.7%, #376fff 106.78%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+.main-container {
+	padding: .2rem;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	border: 1px solid white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-weight: bold;
+	font-size: 4.8rem;
+	line-height: 88px;
+	text-align: center;
+	color: white;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.searchbar {
+	text-align: center;
+	width: 50%;
+	padding: 1.2rem;
+	border-radius: 3rem;
+	border: none;
+	margin-bottom: 1rem;
+}
+
+.searchbar:hover {
+	cursor: pointer;
+}
+
+button {
+	margin-left: 2rem;
+	margin-top: 3rem;
+	border-radius: 3rem;
+	padding: 0.7rem 2.2rem;
+	color: white;
+	background-color: black;
+	transition: .4s;
+	margin: 0;
+	margin-bottom: 3rem;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	letter-spacing: .4rem;
+	transform: translateY(-5px);
+}
+
+.icons {
+	min-width: 90px;
+	width: 10%;
+}
+
+h2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	font-size: 3.2rem;
+	margin-bottom: 0;
+	text-align: center;
+	transition: .4s;
+}
+
+@media only screen and (max-width: 438px) {
+	/* For mobile phones: */
+	h1 {
+		font-size: 3.6rem;
+		line-height: 44px;
+	}
+}
